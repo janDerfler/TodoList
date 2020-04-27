@@ -4,7 +4,7 @@
     $('input').val('');
 })*/
 
-$('button').on('click', () => {
+$('button').click(() => {
     todo = $('input').val();
     $('ul').append(`<li>${todo}</li>`);
     $('input').val('');
